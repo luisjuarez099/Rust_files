@@ -1,8 +1,12 @@
 fn main() {
-    println!("Introduce tu edad \t");
-    let mut _edad:String=String::new();
-    std::io::stdin().read_line(&mut _edad).unwrap();
-    let _age:i32=_edad.trim().parse().unwrap();
 
-    println!("Su edad es de: {} años ",_age);
+    println!("Introduce tu Año de nacimeinto: ");
+    let mut anio:String=String::new();
+    std::io::stdin().read_line(&mut anio).unwrap();
+    let _eddad:i32=anio.trim().parse().unwrap();
+
+    let years:i32 = 2022 - _eddad;
+    println!("Su edad es de {} años",years);
+    
+
 }
