@@ -6,7 +6,11 @@ fn main() {
     let _eddad:i32=anio.trim().parse().unwrap();
 
     let years:i32 = 2022 - _eddad;
-    println!("Su edad es de {} años",years);
     
+    let mut name:String=String::new();
+    std::io::stdin().read_line(&mut name).unwrap();
+    
+    println!("Hola {name} Su edad es de {} años",years);
+
 
 }
