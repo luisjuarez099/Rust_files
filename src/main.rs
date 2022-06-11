@@ -1,3 +1,7 @@
+fn saludo(){
+    println!("Saludo desde una funcion");
+
+}
 fn main() {
 
     println!("Introduce tu Año de nacimeinto: ");
@@ -12,5 +16,5 @@ fn main() {
     
     println!("Hola {name} Su edad es de {} años",years);
     
-
+    saludo();
 }
