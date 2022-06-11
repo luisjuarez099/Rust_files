@@ -10,7 +10,7 @@ fn main() {
     let _eddad:i32=anio.trim().parse().unwrap();
 
     let years:i32 = 2022 - _eddad;
-    
+    println!("Cual es tu nombre: ");
     let mut name:String=String::new();
     std::io::stdin().read_line(&mut name).unwrap();
     
